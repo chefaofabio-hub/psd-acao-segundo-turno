@@ -27,3 +27,26 @@ nav.nav a{grid-column:span 2!important}nav.nav a:nth-child(n+4){grid-column:span
 .cd .adpf-ext{text-align:left;padding:0;margin-top:3px;font-size:12px;max-width:100%}
 
 .numproc{margin:8px auto 6px;max-width:340px;text-align:center;padding:10px 12px;border-radius:14px;font-weight:800;font-size:1.02rem;line-height:1.25;color:#fff;background:linear-gradient(180deg,#2a8a4a,#14552c);box-shadow:0 5px 0 #0a3319,0 8px 16px rgba(0,0,0,.35);text-shadow:0 1px 2px rgba(0,0,0,.5);overflow-wrap:anywhere}
+
+/* v9 alinhamento */
+*,*::before,*::after{box-sizing:border-box}
+.quadro{max-width:100%;overflow:hidden}
+.logo{display:block;margin:0 auto 4px;width:72px;height:72px;filter:drop-shadow(0 4px 4px rgba(15,42,94,.35))}
+.topo h1.ct{font-size:clamp(21px,6.4vw,30px);line-height:1.15;margin:0 0 6px}
+.numproc{display:flex;flex-direction:column;align-items:center;gap:2px;width:100%;max-width:340px;margin:8px auto 10px}
+.numproc span{font-size:12.5px;font-weight:700;opacity:.92;letter-spacing:.2px}
+.numproc b{font-size:clamp(20px,6vw,24px);font-weight:900;letter-spacing:.5px}
+.subt.ct{font-size:13.5px;font-weight:800;line-height:1.3;padding:0 4px}
+.topo .adpf-ext{font-size:11.5px;padding:0 10px;overflow-wrap:normal;word-break:normal}
+.st div{align-items:center;min-width:0}
+.st div b{min-width:0;overflow-wrap:break-word}
+.contagem{gap:6px;flex-wrap:nowrap;margin-top:6px}
+.contagem div{flex:1 1 0;min-width:0;max-width:78px;padding:8px 2px}
+.cd{text-align:left}
+.cd .k{letter-spacing:.3px;margin-bottom:2px}
+.cd .v{overflow-wrap:break-word;word-break:normal;hyphens:auto}
+.cd .v .adpf-ext{text-align:left;padding:0;font-size:12px;overflow-wrap:normal;word-break:normal}
+.cd ul{margin:2px 0 0;padding-left:18px}.cd li{margin:3px 0}
+nav.nav a{min-width:0;overflow:hidden;padding-left:2px;padding-right:2px}
+nav.nav a{font-size:clamp(11px,3.4vw,14px)!important;overflow-wrap:normal;word-break:normal}
+nav.nav a[data-aba=acomp]{font-size:clamp(10px,2.85vw,14px)!important;letter-spacing:-.3px}
