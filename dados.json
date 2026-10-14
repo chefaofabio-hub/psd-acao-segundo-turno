@@ -1,5 +1,5 @@
 {
- "atualizado_em": "14/10/2026 18:55",
+ "atualizado_em": "14/10/2026 19:05",
  "status": {
   "relator": "Ainda não sorteado",
   "liminar": "Sem decisão",
@@ -124,5 +124,8 @@
    "nome": "STF – Rejeita pedido de coligação (TPA 81)",
    "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-de-coligacao-e-mantem-decisao-do-tse-que-invalidou-votos-de-anthony-garotinho-no-rj/"
   }
- ]
+ ],
+ "stf_url": "https://portal.stf.jus.br/processos/",
+ "stf_incidente": null,
+ "stf_nota": "número ainda não localizado"
 }

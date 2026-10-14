@@ -18,3 +18,4 @@ function aba(n){document.querySelectorAll('.aba').forEach(m=>m.hidden=m.id!='aba
 document.querySelectorAll('#nav a').forEach(a=>a.onclick=ev=>{ev.preventDefault();aba(a.dataset.aba);history.replaceState(0,'','#'+a.dataset.aba)});
 if(location.hash)aba(location.hash.slice(1));
 if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js');
+fetch('dados.json?'+Date.now()).then(r=>r.json()).then(D=>{document.querySelectorAll('[data-stf]').forEach(a=>{if(D.stf_url)a.href=D.stf_url;const n=a.querySelector('.stf-nota');if(n){n.textContent=D.stf_incidente?'incidente '+D.stf_incidente:(D.stf_nota||'');}})}).catch(()=>{});
