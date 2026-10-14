@@ -1,41 +1,128 @@
 {
  "atualizado_em": "14/10/2026 18:55",
- "status": {"relator":"Ainda não sorteado","liminar":"Sem decisão","numero_adpf":"Não divulgado","situacao":"Protocolada no STF em 14/10/2026, aguardando distribuição"},
+ "status": {
+  "relator": "Ainda não sorteado",
+  "liminar": "Sem decisão",
+  "numero_adpf": "Não divulgado",
+  "situacao": "Protocolada no STF em 14/10/2026, aguardando distribuição"
+ },
  "data_alvo": "2026-10-25T08:00:00-03:00",
  "processo": {
-  "classe":"ADPF (Arguição de Descumprimento de Preceito Fundamental)",
-  "tribunal":"STF – Supremo Tribunal Federal",
-  "autor":"PSD Nacional (Partido Social Democrático)",
-  "protocolo":"14/10/2026",
-  "pedido":["Suspender a decisão do TSE que anulou os votos de Garotinho","Suspender a retotalização feita pelo TRE-RJ","Realizar o 2º turno Ruas x Paes em 25/10/2026"],
-  "tese":"Art. 77, §2º da Constituição: votos de candidato que estava na urna, mesmo inelegível, contam para a maioria absoluta; só brancos e nulos ficam de fora.",
-  "citacao":"A existência do segundo turno deve depender da vontade expressa nas urnas, e não de eventos processuais posteriores relativos a terceiro candidato.",
-  "alternativa":"Se o STF não decidir antes de 25/10, o PSD fala em \"eleição avulsa\"."
+  "classe": "ADPF",
+  "tribunal": "STF – Supremo Tribunal Federal",
+  "autor": "PSD Nacional (Partido Social Democrático)",
+  "protocolo": "14/10/2026",
+  "pedido": [
+   "Suspender a decisão do TSE que anulou os votos de Garotinho",
+   "Suspender a retotalização feita pelo TRE-RJ",
+   "Realizar o 2º turno Ruas x Paes em 25/10/2026"
+  ],
+  "tese": "Art. 77, §2º da Constituição: votos de candidato que estava na urna, mesmo inelegível, contam para a maioria absoluta; só brancos e nulos ficam de fora.",
+  "citacao": "A existência do segundo turno deve depender da vontade expressa nas urnas, e não de eventos processuais posteriores relativos a terceiro candidato.",
+  "alternativa": "Se o STF não decidir antes de 25/10, o PSD fala em \"eleição avulsa\"."
  },
  "ministros": [
-  {"nome":"Gilmar Mendes","grupo":"pedido","status":"Pode ser sorteado (pedido do PSD)"},
-  {"nome":"Luiz Fux","grupo":"pedido","status":"Pode ser sorteado (pedido do PSD)"},
-  {"nome":"Cármen Lúcia","grupo":"pedido","status":"Pode ser sorteada (pedido do PSD)"},
-  {"nome":"Alexandre de Moraes","grupo":"pedido","status":"Pode ser sorteado (pedido do PSD)"},
-  {"nome":"Cristiano Zanin","grupo":"pedido","status":"Pode ser sorteado (pedido do PSD)"},
-  {"nome":"Flávio Dino","grupo":"pedido","status":"Pode ser sorteado (pedido do PSD)"},
-  {"nome":"Nunes Marques","grupo":"excluido","status":"PSD pediu exclusão (integra o TSE)"},
-  {"nome":"Dias Toffoli","grupo":"excluido","status":"PSD pediu exclusão (integra o TSE)"},
-  {"nome":"André Mendonça","grupo":"excluido","status":"PSD pediu exclusão (integra o TSE)"}
+  {
+   "nome": "Gilmar Mendes",
+   "grupo": "pedido",
+   "status": "Pode ser sorteado (pedido do PSD)"
+  },
+  {
+   "nome": "Luiz Fux",
+   "grupo": "pedido",
+   "status": "Pode ser sorteado (pedido do PSD)"
+  },
+  {
+   "nome": "Cármen Lúcia",
+   "grupo": "pedido",
+   "status": "Pode ser sorteada (pedido do PSD)"
+  },
+  {
+   "nome": "Alexandre de Moraes",
+   "grupo": "pedido",
+   "status": "Pode ser sorteado (pedido do PSD)"
+  },
+  {
+   "nome": "Cristiano Zanin",
+   "grupo": "pedido",
+   "status": "Pode ser sorteado (pedido do PSD)"
+  },
+  {
+   "nome": "Flávio Dino",
+   "grupo": "pedido",
+   "status": "Pode ser sorteado (pedido do PSD)"
+  },
+  {
+   "nome": "Nunes Marques",
+   "grupo": "excluido",
+   "status": "PSD pediu exclusão (integra o TSE)"
+  },
+  {
+   "nome": "Dias Toffoli",
+   "grupo": "excluido",
+   "status": "PSD pediu exclusão (integra o TSE)"
+  },
+  {
+   "nome": "André Mendonça",
+   "grupo": "excluido",
+   "status": "PSD pediu exclusão (integra o TSE)"
+  }
  ],
  "andamentos": [
-  {"data":"14/10/2026","titulo":"PSD protocola ADPF no STF","texto":"Pede suspensão da decisão do TSE e da retotalização e 2º turno Ruas x Paes em 25/10. Relator ainda não sorteado.","fonte":"g1","url":"https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/14/psd-entra-com-recurso-no-stf-para-restabelecer-segundo-turno-da-eleicao-para-governador-do-rio.ghtml"}
+  {
+   "data": "14/10/2026",
+   "titulo": "PSD protocola ADPF no STF",
+   "texto": "Pede suspensão da decisão do TSE e da retotalização e 2º turno Ruas x Paes em 25/10. Relator ainda não sorteado.",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/14/psd-entra-com-recurso-no-stf-para-restabelecer-segundo-turno-da-eleicao-para-governador-do-rio.ghtml"
+  }
  ],
  "contexto": [
-  {"data":"10/10/2026","titulo":"TRE-RJ retotaliza os votos","texto":"Ruas é declarado eleito com 50,88% dos votos válidos.","fonte":"O Globo","url":"https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/14/partido-de-paes-faz-novo-pedido-ao-stf-para-anular-eleicao-de-douglas-ruas-e-realizar-segundo-turno-ao-governo-do-rio.ghtml"},
-  {"data":"08/10/2026","titulo":"Zanin nega TPA 81","texto":"Ministro nega pedido da coligação de Paes; Paes desiste publicamente.","fonte":"STF","url":"https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-de-coligacao-e-mantem-decisao-do-tse-que-invalidou-votos-de-anthony-garotinho-no-rj/"},
-  {"data":"08/10/2026","titulo":"TSE anula votos de Garotinho","texto":"Decisão por 5 a 2.","fonte":"STF","url":"https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-de-coligacao-e-mantem-decisao-do-tse-que-invalidou-votos-de-anthony-garotinho-no-rj/"},
-  {"data":"1º turno","titulo":"Resultado para governador do RJ","texto":"Ruas 4.271.199 (49,27%) · Paes 3.706.984 (42,76%) · Garotinho 274.411 votos, com registro indeferido.","fonte":"Folha","url":"https://www1.folha.uol.com.br/poder/2026/10/eduardo-paes-abre-nova-frente-no-stf-para-tentar-realizacao-de-2o-turno-no-rj.shtml"}
+  {
+   "data": "10/10/2026",
+   "titulo": "TRE-RJ retotaliza os votos",
+   "texto": "Ruas é declarado eleito com 50,88% dos votos válidos.",
+   "fonte": "O Globo",
+   "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/14/partido-de-paes-faz-novo-pedido-ao-stf-para-anular-eleicao-de-douglas-ruas-e-realizar-segundo-turno-ao-governo-do-rio.ghtml"
+  },
+  {
+   "data": "08/10/2026",
+   "titulo": "Zanin nega TPA 81",
+   "texto": "Ministro nega pedido da coligação de Paes; Paes desiste publicamente.",
+   "fonte": "STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-de-coligacao-e-mantem-decisao-do-tse-que-invalidou-votos-de-anthony-garotinho-no-rj/"
+  },
+  {
+   "data": "08/10/2026",
+   "titulo": "TSE anula votos de Garotinho",
+   "texto": "Decisão por 5 a 2.",
+   "fonte": "STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-de-coligacao-e-mantem-decisao-do-tse-que-invalidou-votos-de-anthony-garotinho-no-rj/"
+  },
+  {
+   "data": "1º turno",
+   "titulo": "Resultado para governador do RJ",
+   "texto": "Ruas 4.271.199 (49,27%) · Paes 3.706.984 (42,76%) · Garotinho 274.411 votos, com registro indeferido.",
+   "fonte": "Folha",
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/eduardo-paes-abre-nova-frente-no-stf-para-tentar-realizacao-de-2o-turno-no-rj.shtml"
+  }
  ],
  "fontes": [
-  {"nome":"g1 – PSD entra com recurso no STF","url":"https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/14/psd-entra-com-recurso-no-stf-para-restabelecer-segundo-turno-da-eleicao-para-governador-do-rio.ghtml"},
-  {"nome":"O Globo – Partido de Paes faz novo pedido ao STF","url":"https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/14/partido-de-paes-faz-novo-pedido-ao-stf-para-anular-eleicao-de-douglas-ruas-e-realizar-segundo-turno-ao-governo-do-rio.ghtml"},
-  {"nome":"Folha – Paes abre nova frente no STF","url":"https://www1.folha.uol.com.br/poder/2026/10/eduardo-paes-abre-nova-frente-no-stf-para-tentar-realizacao-de-2o-turno-no-rj.shtml"},
-  {"nome":"STF – Rejeita pedido de coligação (TPA 81)","url":"https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-de-coligacao-e-mantem-decisao-do-tse-que-invalidou-votos-de-anthony-garotinho-no-rj/"}
+  {
+   "nome": "g1 – PSD entra com recurso no STF",
+   "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/14/psd-entra-com-recurso-no-stf-para-restabelecer-segundo-turno-da-eleicao-para-governador-do-rio.ghtml"
+  },
+  {
+   "nome": "O Globo – Partido de Paes faz novo pedido ao STF",
+   "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/14/partido-de-paes-faz-novo-pedido-ao-stf-para-anular-eleicao-de-douglas-ruas-e-realizar-segundo-turno-ao-governo-do-rio.ghtml"
+  },
+  {
+   "nome": "Folha – Paes abre nova frente no STF",
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/eduardo-paes-abre-nova-frente-no-stf-para-tentar-realizacao-de-2o-turno-no-rj.shtml"
+  },
+  {
+   "nome": "STF – Rejeita pedido de coligação (TPA 81)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-de-coligacao-e-mantem-decisao-do-tse-que-invalidou-votos-de-anthony-garotinho-no-rj/"
+  }
  ]
 }

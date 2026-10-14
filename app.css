@@ -23,3 +23,12 @@ h1.ct{text-shadow:0 1px 0 #fff,0 2px 0 #c9d6ee,0 4px 6px rgba(31,79,168,.3)}
 nav.nav{grid-template-columns:repeat(6,1fr)!important}
 nav.nav a{grid-column:span 2!important}nav.nav a:nth-child(n+4){grid-column:span 3!important}
 .contagem b,.contagem small{text-shadow:0 1px 2px rgba(0,0,0,.4)!important;color:#fff!important}
+
+.adpf-ext{display:block;font-size:12px;font-weight:700;color:var(--cinza);line-height:1.3;margin-top:4px;padding:0 8px;text-align:center;white-space:normal;overflow-wrap:anywhere}
+.cd .adpf-ext{text-align:left;padding:0;margin-top:3px;font-size:12px}
+.st .adpf-ext{flex:0 0 100%;text-align:center;margin:2px 0 0;font-size:11px;font-weight:700;color:var(--cinza)}
+.st div{flex-wrap:wrap}
+
+.st-adpf{display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:2px}
+.st-adpf .st-row{display:flex;justify-content:space-between;gap:8px;width:100%}
+.st-adpf .adpf-ext{text-align:left;padding:0;margin:0;font-size:11px}
