@@ -25,6 +25,3 @@ nav.nav a{grid-column:span 2!important}nav.nav a:nth-child(n+4){grid-column:span
 .contagem b,.contagem small{text-shadow:0 1px 2px rgba(0,0,0,.4)!important;color:#fff!important}
 .adpf-ext{display:block;width:100%;max-width:100%;box-sizing:border-box;font-size:11px;font-weight:700;color:var(--cinza);line-height:1.25;margin-top:4px;padding:0 6px;text-align:center;white-space:normal;overflow-wrap:anywhere;word-break:break-word}
 .cd .adpf-ext{text-align:left;padding:0;margin-top:3px;font-size:12px;max-width:100%}
-.btn-stf{display:block;margin:12px auto;max-width:340px;text-align:center;padding:12px 14px;border-radius:14px;font-weight:800;color:#fff;text-decoration:none;background:linear-gradient(180deg,#2f6fd6,#163f8a);box-shadow:0 5px 0 #0c2552,0 8px 16px rgba(0,0,0,.35);text-shadow:0 1px 2px rgba(0,0,0,.5)}
-.btn-stf:active{transform:translateY(3px);box-shadow:0 2px 0 #0c2552}
-.btn-stf small{display:block;font-weight:600;font-size:.78em;opacity:.85;margin-top:2px}
