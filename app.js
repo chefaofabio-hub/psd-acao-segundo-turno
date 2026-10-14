@@ -18,4 +18,4 @@ $('atu').innerHTML='Atualizado em <b>'+e(D.atualizado_em)+'</b> (horário de Bra
 function aba(n){document.querySelectorAll('.aba').forEach(m=>m.hidden=m.id!='aba-'+n);document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('atual',a.dataset.aba==n))}
 document.querySelectorAll('#nav a').forEach(a=>a.onclick=ev=>{ev.preventDefault();aba(a.dataset.aba);history.replaceState(0,'','#'+a.dataset.aba)});
 if(location.hash)aba(location.hash.slice(1));
-if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js?v=10',{updateViaCache:'none'}).then(r=>r.update());
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js?v=11',{scope:'/psd-acao-segundo-turno/',updateViaCache:'none'}).then(r=>r.update());
