@@ -6,7 +6,7 @@ $('cont').innerHTML=t.map((v,i)=>`<div><b>${v}</b><small>${['dias','horas','min'
 const item=a=>{const ext=/\bADPF\b/i.test(a.titulo)?'<div class="adpf-ext">Arguição de Descumprimento de Preceito Fundamental</div>':'';return `<div class="cd"><span class="dt">${e(a.data)}</span><h3>${e(a.titulo)}</h3>${ext}<div class="v">${e(a.texto)}</div><div class="nota">Fonte: <a href="${e(a.url)}" target="_blank" rel="noopener">${e(a.fonte)}</a></div></div>`};
 fetch('dados.json?t='+Date.now()).then(r=>r.json()).then(D=>{
 const s=D.status,p=D.processo;alvo=new Date(D.data_alvo);cont();setInterval(cont,1000);
-$('status').innerHTML=`<div>Relator<b>${e(s.relator)}</b></div><div>Liminar<b>${e(s.liminar)}</b></div><div class="st-adpf"><span class="st-row"><span>Nº da ADPF</span><b>${e(s.numero_adpf)}</b></span><span class="adpf-ext">Arguição de Descumprimento de Preceito Fundamental</span></div>`;
+$('status').innerHTML=`<div>Relator<b>${e(s.relator)}</b></div><div>Liminar<b>${e(s.liminar)}</b></div><div>Nº da ADPF<b>${e(s.numero_adpf)}</b></div>`;
 const kv=(k,v)=>`<div class="cd"><div class="k">${k}</div><div class="v">${v}</div></div>`;
 $('proc').innerHTML=kv('Situação',e(s.situacao))+kv('Classe','ADPF<div class="adpf-ext">Arguição de Descumprimento de Preceito Fundamental</div>')+kv('Tribunal',e(p.tribunal))+kv('Autor',e(p.autor))+kv('Protocolo',e(p.protocolo))+kv('Número',e(s.numero_adpf))+kv('Relator',e(s.relator))+kv('Liminar',e(s.liminar))+kv('Pedido','<ul>'+p.pedido.map(x=>'<li>'+e(x)+'</li>').join('')+'</ul>')+kv('Tese',e(p.tese))+kv('Citação do PSD','<q>'+e(p.citacao)+'</q>')+kv('Se não houver decisão',e(p.alternativa));
 $('and').innerHTML=D.andamentos.map(item).join('');
